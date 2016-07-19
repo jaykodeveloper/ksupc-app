@@ -39,6 +39,12 @@ THIRD_PARTY_APPS = (
     'allauth',  # registration
     'allauth.account',  # registration
     'allauth.socialaccount',  # registration
+
+    # Social Login Providers
+    'allauth.socialaccount.providers.facebook', # Facebook
+    'allauth.socialaccount.providers.google',   # Google
+
+    # NOTE:  Maybe include Paypal and/or Stripe integration?
 )
 
 # Apps specific for this project go here.
